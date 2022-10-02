@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    background-color: rgb(238,174,202); 
+    background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.beg{
+    width: 500px;
+    margin:auto;
+}
+/* .main{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+} */
+
+.flex-container{
+    display: flex;
+    flex: 1;
+}
+
+.item{
+    width: fit-content;
+    height:auto;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+
+}
+
+.about-me{
+    padding-top: 30px;
+}
+
+#cool_button{
+    padding: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+#cool_button:hover{
+    background-color: yellow;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
